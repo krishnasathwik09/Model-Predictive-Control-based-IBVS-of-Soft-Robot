@@ -1,0 +1,15 @@
+origamibot :
+    # Robot Simulation Parameters ------------------------------------
+  simulation:
+    min_cable_len: 80 # Minimum Cable Length
+    max_cable_len: 200 # Maximum Cable Length
+    module_num: 2 # Number of Modules/Segments
+    module_d: 40 #
+    rate: 10 # initialization loop rate
+    
+  control:
+    loop_rate: 10   # control loop rate
+    goal_pos_x: 160 # Goal Pose X
+    goal_pos_y: 55  # Goal Pose Y
+    lambda_1: -0.6  # P gain -X 
+    lambda_2: -0.6  # P gain -Y            

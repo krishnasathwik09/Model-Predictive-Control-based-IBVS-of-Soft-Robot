@@ -1,0 +1,10 @@
+float64 l1
+float64 l2
+float64 l3
+float64 l4
+float64 l5
+float64 l6
+float64 d
+---
+int64 step
+float64[] jv 
